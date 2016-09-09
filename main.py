@@ -1,4 +1,5 @@
-import questionnaire
+from questionnaire import Questionnaire
 
 if __name__ == "__main__":
-    questionnaire.Questionnaire()
+    question = Questionnaire()
+    question.run()
